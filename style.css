@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    border:border-box;
+    border: border-box;
 }
+
 /* Box 1 */
 
-.navbar{
+.navbar {
     height: 60px;
     background-color: #0f1111;
     color: white;
@@ -14,46 +15,46 @@
     justify-content: space-evenly;
 }
 
-.nav-logo{
+.nav-logo {
     height: 50px;
     width: 100px;
 }
 
-.logo{
+.logo {
     background-image: url("amazon_logo.png");
     height: 50px;
     width: 100%;
     background-size: cover;
 }
 
-.border{
+.border {
     border: 1.5px solid transparent;
 }
 
-.border:hover{
+.border:hover {
     border: 1.5px solid white;
 }
 
 /* Box 2 */
 
-.add-first{
+.add-first {
     color: #cccccc;
     font-size: 0.55rem;
     margin-left: 15px;
 }
 
-.add-sec{
+.add-sec {
     font-size: 1rem;
     margin-left: 3px;
 }
 
-.add-icon{
+.add-icon {
     display: flex;
     align-items: center;
 }
 
 /* Box 3 */
-.nav-search{
+.nav-search {
     display: flex;
     background-color: orange;
     justify-content: space-evenly;
@@ -62,25 +63,26 @@
     border-radius: 6px;
 }
 
-.search-select{
+.search-select {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     background-color: rgba(253, 251, 251, 0.89);
     width: 50px;
     text-align: center;
-    border:none
+    border: none;
 }
-.nav-search:hover{
+
+.nav-search:hover {
     border: 2px solid orange;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
 
-.search-icon{
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -92,20 +94,47 @@
 
 /* Box 4 */
 
-span{
+span {
     font-size: 0.7rem;
 }
 
-.nav-second{
+.nav-second {
     font-size: 0.84rem;
     font-weight: 700;
 }
 
 /* Box 6 */
-.nav-cart i{
+.nav-cart i {
     font-size: 28px;
 }
-.nav-cart{
+
+.nav-cart {
     font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
     font-weight: 700;
 }
